@@ -37,3 +37,7 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
+
+// Import and use customer auth routes
+const customerAuthRoutes = require("./routes/customerAuth");
+app.use("/api/customer/auth", customerAuthRoutes);
