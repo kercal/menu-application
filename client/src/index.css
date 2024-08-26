@@ -1,0 +1,29 @@
+/* Ensure the body and html take up the full height of the viewport */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* The main container needs to fill the remaining space between header and footer */
+.main-content {
+  flex: 1 0 auto; /* Flex item that can grow and shrink */
+}
+
+/* Footer stays at the bottom */
+footer {
+  flex-shrink: 0; /* Prevents footer from shrinking */
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+/* Ensure the container wraps the entire page */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Minimum height is the full viewport height */
+}
