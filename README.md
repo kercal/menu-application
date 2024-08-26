@@ -35,29 +35,22 @@ This is a full-stack web application that I wanted to build for years but couldn
 - Node.js and npm installed
 - MongoDB installed and running
 
-### Clone the Repository
+### Clone the Repository`
 
-```
 git clone https://github.com/kercal/menu-application
-```
 
-```
 cd menuApplication
-```
+
 
 ### Backend Setup
 
-1. Navigate to the `backend` directory:
-
-```cd backend
-
-```
+1. Navigate to the root directory
 
 2. Install the required packages:
 
-```npm install
+npm install
 
-```
+
 
 3. Create a `.env` file in the `backend` directory with the following variables:
 
@@ -69,29 +62,24 @@ JWT_SECRET=your_jwt_secret
 
 4. Start the backend server(root):
 
-```
+
 node index.js
-```
+
 
 ### Frontend Setup
 
 1. Navigate to the `frontend` directory:
 
-```cd frontend
+cd client
 
-```
 
 2. Install the required packages:
 
-```npm install
-
-```
+npm install
 
 3. Start the frontend development server:
 
-```npm start
-
-```
+npm start
 
 The frontend server should be running on `http://localhost:3000` and the backend server on `http://localhost:5000`.
 
@@ -115,3 +103,11 @@ The frontend server should be running on `http://localhost:3000` and the backend
 
 - **backend/**: Contains all backend-related code, including routes, models, middleware, and configuration files.
 - **frontend/**: Contains all frontend-related code, including React components, pages, and styles.
+
+
+![ss1](https://github.com/user-attachments/assets/2caad801-371a-4aba-854c-aa00fc6b091b)
+![ss2](https://github.com/user-attachments/assets/0f640c4d-9c20-4835-8654-bdc9093ae97b)
+![ss3](https://github.com/user-attachments/assets/89b2546f-7135-4bb6-804a-8f0ec996cafe)
+![ss4](https://github.com/user-attachments/assets/62eca68c-899d-4d68-b7d3-c2f992f372f5)
+
+
